@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=3 uid="uid://d366hiff6xiso"]
+
+[ext_resource type="PackedScene" uid="uid://cj7kr6lx01j02" path="res://Escenes/Tnquetuba.tscn" id="1_gyiwt"]
+[ext_resource type="PackedScene" uid="uid://ma7cb1c1prdb" path="res://Escenes/area_detectora.tscn" id="1_hghi8"]
+[ext_resource type="PackedScene" uid="uid://cmgmwbcmt0kr" path="res://Escenes/paret.tscn" id="2_belbe"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Tnquetuba" parent="." instance=ExtResource("1_gyiwt")]
+position = Vector2(256, 273)
+
+[node name="Camera2D" type="Camera2D" parent="Tnquetuba"]
+
+[node name="Parets" type="Node2D" parent="."]
+
+[node name="Paret1" parent="Parets" instance=ExtResource("2_belbe")]
+position = Vector2(532, 21)
+
+[node name="Paret2" parent="Parets" instance=ExtResource("2_belbe")]
+position = Vector2(1034, 328)
+rotation = 1.5708
+
+[node name="Paret3" parent="Parets" instance=ExtResource("2_belbe")]
+position = Vector2(360, 455)
+rotation = 1.5708
+
+[node name="Paret4" parent="Parets" instance=ExtResource("2_belbe")]
+position = Vector2(343, 103)
+rotation = 1.5708
+
+[node name="Paret5" parent="Parets" instance=ExtResource("2_belbe")]
+position = Vector2(956, 134)
+
+[node name="Àrees_detecció" type="Node2D" parent="."]
+z_index = -1
+
+[node name="Area2D" parent="Àrees_detecció" instance=ExtResource("1_hghi8")]
+position = Vector2(360, 587)
+
+[node name="Area2D3" parent="Àrees_detecció" instance=ExtResource("1_hghi8")]
+z_index = 0
+position = Vector2(1157, 540)
+
+[node name="Area2D2" parent="Àrees_detecció" instance=ExtResource("1_hghi8")]
+position = Vector2(785, 78)

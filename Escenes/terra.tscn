@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cjci5ca8ie8jy"]
+
+[ext_resource type="Texture2D" uid="uid://utvlwxrfej12" path="res://Imatges/Base pack/Tiles/grass.png" id="1_bvfl7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b46sv"]
+size = Vector2(70, 70)
+
+[node name="Terra" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+texture = ExtResource("1_bvfl7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("RectangleShape2D_b46sv")

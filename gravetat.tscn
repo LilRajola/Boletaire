@@ -1,0 +1,51 @@
+[gd_scene load_steps=6 format=3 uid="uid://c3t6mqyxsaris"]
+
+[ext_resource type="Script" uid="uid://vunth6o3h0q1" path="res://Scripts/gravetat.gd" id="1_3hse5"]
+[ext_resource type="Texture2D" uid="uid://0fgh3173kdsw" path="res://Imatges/3d-rendering-brown-brick-wall-isolated-png.webp" id="2_3hse5"]
+[ext_resource type="Texture2D" uid="uid://bwi8oupdkn10o" path="res://Imatges/pngtree-3d-illustration-tuba-object-png-image_11592324.png" id="2_418n2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_418n2"]
+radius = 96.3328
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pelah"]
+size = Vector2(408.5, 146.5)
+
+[node name="Gravetat" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_3hse5")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+position = Vector2(-288, -205)
+scale = Vector2(0.605556, 0.583333)
+texture = ExtResource("2_418n2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(-292, -201)
+shape = SubResource("CircleShape2D_418n2")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(-1433, -188)
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(1096, 284)
+scale = Vector2(0.9875, 0.7075)
+texture = ExtResource("2_3hse5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1116, 284)
+shape = SubResource("RectangleShape2D_pelah")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+position = Vector2(-669, -188)
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D2"]
+position = Vector2(736, 286)
+scale = Vector2(1.05125, 0.7275)
+texture = ExtResource("2_3hse5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2(742, 289)
+shape = SubResource("RectangleShape2D_pelah")
+
+[node name="Camera2D" type="Camera2D" parent="."]

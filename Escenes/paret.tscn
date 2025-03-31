@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://cmgmwbcmt0kr"]
+
+[ext_resource type="Texture2D" uid="uid://0fgh3173kdsw" path="res://Imatges/3d-rendering-brown-brick-wall-isolated-png.webp" id="1_mi4h6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hghi8"]
+size = Vector2(108, 267.5)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2, 0.75)
+shape = SubResource("RectangleShape2D_hghi8")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = 1.5708
+scale = Vector2(0.693181, 0.513637)
+texture = ExtResource("1_mi4h6")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ch5ymqijngmv2"]
+
+[ext_resource type="PackedScene" uid="uid://cmgmwbcmt0kr" path="res://Escenes/paret.tscn" id="1_2pixi"]
+
+[node name="Parets" type="Node2D"]
+
+[node name="Paret" parent="." instance=ExtResource("1_2pixi")]

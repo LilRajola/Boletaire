@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=3 uid="uid://cj7kr6lx01j02"]
+
+[ext_resource type="Script" uid="uid://cx2ro5ikehnbw" path="res://Scripts/moviment_tuba.gd" id="1_wpu6x"]
+[ext_resource type="Texture2D" uid="uid://bwi8oupdkn10o" path="res://Imatges/pngtree-3d-illustration-tuba-object-png-image_11592324.png" id="2_myibo"]
+[ext_resource type="Texture2D" uid="uid://6ukg2irnp1t3" path="res://Imatges/pngtree-wooden-wheel-aged-american-ancient-png-image_6088166.png" id="3_kvmpi"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_belbe"]
+size = Vector2(253, 182)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_belbe"]
+radius = 18.0
+height = 142.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_wpu6x")
+
+[node name="Tuba" type="Sprite2D" parent="."]
+rotation = 1.5708
+scale = Vector2(1.08573, 0.991842)
+texture = ExtResource("2_myibo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-15, 12)
+shape = SubResource("RectangleShape2D_belbe")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(126, -46)
+shape = SubResource("CapsuleShape2D_belbe")
+
+[node name="Roda devantera" type="Sprite2D" parent="."]
+position = Vector2(-100.742, 66.663)
+rotation = 1.5708
+scale = Vector2(0.193261, 0.198368)
+texture = ExtResource("3_kvmpi")
+
+[node name="Roda del darrere" type="Sprite2D" parent="."]
+position = Vector2(63.046, 64.326)
+rotation = 1.5708
+scale = Vector2(0.200639, 0.201065)
+texture = ExtResource("3_kvmpi")
