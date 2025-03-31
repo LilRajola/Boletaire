@@ -1,5 +1,8 @@
-[gd_scene format=3 uid="uid://dcvo3ys6nylju"]
+[gd_scene load_steps=2 format=3 uid="uid://dcvo3ys6nylju"]
+
+[ext_resource type="PackedScene" uid="uid://ctg0ncpl6yjx1" path="res://Escenes/fondo.tscn" id="1_77vj7"]
 
 [node name="Mapa" type="Node2D"]
 
-[node name="Fondo" type="Node2D" parent="."]
+[node name="Fondo" parent="." instance=ExtResource("1_77vj7")]
+position = Vector2(512, -256)
