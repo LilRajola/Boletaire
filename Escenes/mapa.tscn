@@ -1,9 +1,11 @@
-[gd_scene load_steps=5 format=3 uid="uid://dcvo3ys6nylju"]
+[gd_scene load_steps=7 format=3 uid="uid://dcvo3ys6nylju"]
 
 [ext_resource type="PackedScene" uid="uid://ctg0ncpl6yjx1" path="res://Escenes/fondo.tscn" id="1_77vj7"]
 [ext_resource type="PackedScene" uid="uid://cjci5ca8ie8jy" path="res://Escenes/plataformas.tscn" id="2_biieb"]
 [ext_resource type="PackedScene" uid="uid://c3nhpwndr2mhl" path="res://Escenes/terra.tscn" id="3_2011l"]
 [ext_resource type="PackedScene" uid="uid://drrgovxcyhgt2" path="res://Escenes/el_qui_en_cull.tscn" id="3_ffcuw"]
+[ext_resource type="PackedScene" uid="uid://bp6dl1i6hfmc5" path="res://Escenes/El_que_s'agafa/bolet.tscn" id="5_gc7n0"]
+[ext_resource type="PackedScene" uid="uid://dbxdtbtktqb55" path="res://Escenes/El_que_s'agafa/bolet_marro.tscn" id="6_mydjf"]
 
 [node name="Mapa" type="Node2D"]
 
@@ -62,11 +64,8 @@ position = Vector2(447, -421)
 [node name="Terra25" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
 position = Vector2(375, -125)
 
-[node name="Terra31" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
-position = Vector2(491, -227)
-
 [node name="Terra32" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
-position = Vector2(441, -227)
+position = Vector2(456, -232)
 
 [node name="Terra5" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
 position = Vector2(175, -25)
@@ -226,5 +225,13 @@ position = Vector2(725, -25)
 [node name="Terra6" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
 position = Vector2(675, -25)
 
-[node name="Node2D" parent="." instance=ExtResource("3_ffcuw")]
+[node name="EL_qui_cull" parent="." instance=ExtResource("3_ffcuw")]
 position = Vector2(25, -87)
+
+[node name="El_que_s\'agafa" type="Node2D" parent="."]
+
+[node name="Bolet" parent="El_que_s\'agafa" instance=ExtResource("5_gc7n0")]
+position = Vector2(258, -360)
+
+[node name="Bolet_marro" parent="El_que_s\'agafa" instance=ExtResource("6_mydjf")]
+position = Vector2(707, -370)
