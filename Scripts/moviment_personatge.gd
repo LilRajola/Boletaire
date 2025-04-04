@@ -40,7 +40,9 @@ func _process(delta: float) -> void:
 	move_and_slide()
 
 func agafa_bolet():
-	$bolet_marcador1.visible = true
+	$bolet_marcador.visible = true
 	
 func agafa_bolet_marro():
 	$Bolet_marro_marcador.visible = true
+func agafa_bolet_blanc():
+	$bolet_blanc_marcador.visible = true

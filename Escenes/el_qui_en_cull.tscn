@@ -1,21 +1,23 @@
-[gd_scene load_steps=19 format=3 uid="uid://drrgovxcyhgt2"]
+[gd_scene load_steps=21 format=3 uid="uid://drrgovxcyhgt2"]
 
 [ext_resource type="Script" uid="uid://cvyuutjgf0q88" path="res://Scripts/moviment_personatge.gd" id="1_if3wi"]
-[ext_resource type="Texture2D" uid="uid://ch1tsgma3gpsx" path="res://Imatges/Base pack/Player/p1_walk/PNG/p1_walk01.png" id="2_0oa5s"]
-[ext_resource type="Texture2D" uid="uid://d3qdyxmi7hr7c" path="res://Imatges/Base pack/Player/p1_walk/PNG/p1_walk02.png" id="3_ccn5l"]
-[ext_resource type="Texture2D" uid="uid://cxxw36lo6vq7v" path="res://Imatges/Base pack/Player/p1_walk/PNG/p1_walk03.png" id="4_5nlwg"]
-[ext_resource type="Texture2D" uid="uid://c7qjdr5cnsl03" path="res://Imatges/Base pack/Player/p1_walk/PNG/p1_walk04.png" id="5_16mg1"]
-[ext_resource type="Texture2D" uid="uid://bln5uimrmm30" path="res://Imatges/Base pack/Player/p1_walk/PNG/p1_walk05.png" id="6_rqm4b"]
-[ext_resource type="Texture2D" uid="uid://cqvwmvre5ywod" path="res://Imatges/Base pack/Player/p1_walk/PNG/p1_walk06.png" id="7_ytnfv"]
-[ext_resource type="Texture2D" uid="uid://g7yg0dqjuyid" path="res://Imatges/Base pack/Player/p1_walk/PNG/p1_walk07.png" id="8_2mj5i"]
-[ext_resource type="Texture2D" uid="uid://dcrqufxfd0jfw" path="res://Imatges/Base pack/Player/p1_walk/PNG/p1_walk08.png" id="9_jnbpw"]
-[ext_resource type="Texture2D" uid="uid://630xtohgiy7u" path="res://Imatges/Base pack/Player/p1_walk/PNG/p1_walk09.png" id="10_py48p"]
-[ext_resource type="Texture2D" uid="uid://de3ok8il4xdhn" path="res://Imatges/Base pack/Player/p1_walk/PNG/p1_walk10.png" id="11_g64su"]
-[ext_resource type="Texture2D" uid="uid://b81vjqoimd83p" path="res://Imatges/Base pack/Player/p1_walk/PNG/p1_walk11.png" id="12_d28vx"]
-[ext_resource type="Texture2D" uid="uid://yhdibdt3l5a6" path="res://Imatges/Base pack/Player/p1_jump.png" id="13_0oa5s"]
-[ext_resource type="Texture2D" uid="uid://gxhumhxajd1c" path="res://Imatges/Base pack/Player/p1_front.png" id="13_ccn5l"]
+[ext_resource type="Texture2D" uid="uid://db8sk53wilayw" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk01.png" id="2_ytnfv"]
+[ext_resource type="Texture2D" uid="uid://b3x14cnxh7vc2" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk02.png" id="3_2mj5i"]
+[ext_resource type="Texture2D" uid="uid://63i1p6jdne1o" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk03.png" id="4_jnbpw"]
+[ext_resource type="Texture2D" uid="uid://dal3tkf7sf4n8" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk04.png" id="5_py48p"]
+[ext_resource type="Texture2D" uid="uid://cvu11llm42ksw" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk05.png" id="6_g64su"]
+[ext_resource type="Texture2D" uid="uid://bnilji660r8bn" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk06.png" id="7_d28vx"]
+[ext_resource type="Texture2D" uid="uid://qv17702qqbqq" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk07.png" id="8_t5j7i"]
+[ext_resource type="Texture2D" uid="uid://dm7h5sb1bkjwe" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk08.png" id="9_tn8fj"]
+[ext_resource type="Texture2D" uid="uid://dfa83smhca6c" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk09.png" id="10_vilxn"]
+[ext_resource type="Texture2D" uid="uid://du04splx3pa8" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk10.png" id="11_dhfbq"]
+[ext_resource type="Texture2D" uid="uid://c1f020pc36or0" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk11.png" id="12_bwkb6"]
+[ext_resource type="Texture2D" uid="uid://k4jwadsxm2f1" path="res://Imatges/Base pack/Player/p2_front.png" id="13_rqm4b"]
+[ext_resource type="Texture2D" uid="uid://bgfp8ba35g1vn" path="res://Imatges/Base pack/Player/p2_jump.png" id="14_ytnfv"]
 [ext_resource type="Texture2D" uid="uid://doaxcqhaeng0r" path="res://Imatges/Base pack/Items/mushroomRed.png" id="15_5nlwg"]
 [ext_resource type="Texture2D" uid="uid://cr120aikauald" path="res://Imatges/Base pack/Items/mushroomBrown.png" id="16_16mg1"]
+[ext_resource type="Texture2D" uid="uid://eigiop25yjpi" path="res://Imatges/Mushroom expansion/PNG/tinyShroom_tan.png" id="17_rqm4b"]
+[ext_resource type="FontFile" uid="uid://camlr321qkdl4" path="res://Fonts/Ka Blam.ttf" id="18_ytnfv"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ccn5l"]
 size = Vector2(50, 75)
@@ -24,37 +26,37 @@ size = Vector2(50, 75)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_0oa5s")
+"texture": ExtResource("2_ytnfv")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_ccn5l")
+"texture": ExtResource("3_2mj5i")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_5nlwg")
+"texture": ExtResource("4_jnbpw")
 }, {
 "duration": 1.0,
-"texture": ExtResource("5_16mg1")
+"texture": ExtResource("5_py48p")
 }, {
 "duration": 1.0,
-"texture": ExtResource("6_rqm4b")
+"texture": ExtResource("6_g64su")
 }, {
 "duration": 1.0,
-"texture": ExtResource("7_ytnfv")
+"texture": ExtResource("7_d28vx")
 }, {
 "duration": 1.0,
-"texture": ExtResource("8_2mj5i")
+"texture": ExtResource("8_t5j7i")
 }, {
 "duration": 1.0,
-"texture": ExtResource("9_jnbpw")
+"texture": ExtResource("9_tn8fj")
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_py48p")
+"texture": ExtResource("10_vilxn")
 }, {
 "duration": 1.0,
-"texture": ExtResource("11_g64su")
+"texture": ExtResource("11_dhfbq")
 }, {
 "duration": 1.0,
-"texture": ExtResource("12_d28vx")
+"texture": ExtResource("12_bwkb6")
 }],
 "loop": true,
 "name": &"Caminar",
@@ -62,7 +64,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("13_ccn5l")
+"texture": ExtResource("13_rqm4b")
 }],
 "loop": true,
 "name": &"Quiet",
@@ -70,7 +72,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("13_0oa5s")
+"texture": ExtResource("14_ytnfv")
 }],
 "loop": true,
 "name": &"Saltar",
@@ -92,12 +94,26 @@ animation = &"Saltar"
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 
-[node name="bolet_marcador1" type="Sprite2D" parent="CharacterBody2D"]
+[node name="bolet_marcador" type="Sprite2D" parent="CharacterBody2D"]
 visible = false
-position = Vector2(549, -320)
+position = Vector2(549, -318)
 texture = ExtResource("15_5nlwg")
 
 [node name="Bolet_marro_marcador" type="Sprite2D" parent="CharacterBody2D"]
 visible = false
-position = Vector2(499, -318)
+position = Vector2(500, -317)
 texture = ExtResource("16_16mg1")
+
+[node name="bolet_blanc_marcador" type="Sprite2D" parent="CharacterBody2D"]
+visible = false
+position = Vector2(451, -318)
+scale = Vector2(1.02143, 1.02857)
+texture = ExtResource("17_rqm4b")
+
+[node name="TEXT, el cistell" type="Label" parent="CharacterBody2D"]
+offset_left = 352.0
+offset_top = -306.0
+offset_right = 464.0
+offset_bottom = -253.0
+theme_override_fonts/font = ExtResource("18_ytnfv")
+text = "EL CISTELL"
