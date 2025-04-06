@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://ctg0ncpl6yjx1"]
-
-[ext_resource type="Texture2D" uid="uid://dhxjq42euhvac" path="res://Imatges/Fondo/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/Background.png" id="1_slgs0"]
-
-[node name="Fondo" type="Node2D"]
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(2, 2)
-texture = ExtResource("1_slgs0")

@@ -38,7 +38,11 @@ func _process(delta: float) -> void:
 		
 	velocity += gravetat * delta
 	move_and_slide()
-
+	
+	if $bolet_blanc_marcador.visible == true and $Bolet_marro_marcador.visible == true and$bolet_marcador.visible == true:
+		print('Ja els tens tots, VICTORIA!')
+		pass
+		
 func agafa_bolet():
 	$bolet_marcador.visible = true
 	
@@ -46,3 +50,4 @@ func agafa_bolet_marro():
 	$Bolet_marro_marcador.visible = true
 func agafa_bolet_blanc():
 	$bolet_blanc_marcador.visible = true
+	
