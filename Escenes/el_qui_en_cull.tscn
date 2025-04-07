@@ -1,23 +1,24 @@
-[gd_scene load_steps=21 format=3 uid="uid://drrgovxcyhgt2"]
+[gd_scene load_steps=22 format=3 uid="uid://drrgovxcyhgt2"]
 
 [ext_resource type="Script" uid="uid://cvyuutjgf0q88" path="res://Scripts/moviment_personatge.gd" id="1_if3wi"]
-[ext_resource type="Texture2D" uid="uid://db8sk53wilayw" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk01.png" id="2_ytnfv"]
-[ext_resource type="Texture2D" uid="uid://b3x14cnxh7vc2" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk02.png" id="3_2mj5i"]
-[ext_resource type="Texture2D" uid="uid://63i1p6jdne1o" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk03.png" id="4_jnbpw"]
-[ext_resource type="Texture2D" uid="uid://dal3tkf7sf4n8" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk04.png" id="5_py48p"]
-[ext_resource type="Texture2D" uid="uid://cvu11llm42ksw" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk05.png" id="6_g64su"]
-[ext_resource type="Texture2D" uid="uid://bnilji660r8bn" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk06.png" id="7_d28vx"]
-[ext_resource type="Texture2D" uid="uid://qv17702qqbqq" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk07.png" id="8_t5j7i"]
-[ext_resource type="Texture2D" uid="uid://dm7h5sb1bkjwe" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk08.png" id="9_tn8fj"]
-[ext_resource type="Texture2D" uid="uid://dfa83smhca6c" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk09.png" id="10_vilxn"]
-[ext_resource type="Texture2D" uid="uid://du04splx3pa8" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk10.png" id="11_dhfbq"]
-[ext_resource type="Texture2D" uid="uid://c1f020pc36or0" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk11.png" id="12_bwkb6"]
-[ext_resource type="Texture2D" uid="uid://k4jwadsxm2f1" path="res://Imatges/Base pack/Player/p2_front.png" id="13_rqm4b"]
-[ext_resource type="Texture2D" uid="uid://bgfp8ba35g1vn" path="res://Imatges/Base pack/Player/p2_jump.png" id="14_ytnfv"]
+[ext_resource type="Texture2D" uid="uid://gxcf8vjrvx3i" path="res://Imatges/Base pack/Player/p3_walk/p3_walk01.png" id="2_ytnfv"]
+[ext_resource type="Texture2D" uid="uid://pa6t3u1mvc7g" path="res://Imatges/Base pack/Player/p3_walk/p3_walk02.png" id="3_2mj5i"]
+[ext_resource type="Texture2D" uid="uid://dklmnbv0g1o4" path="res://Imatges/Base pack/Player/p3_walk/p3_walk03.png" id="4_jnbpw"]
+[ext_resource type="Texture2D" uid="uid://dj6k6b70qrcp1" path="res://Imatges/Base pack/Player/p3_walk/p3_walk04.png" id="5_py48p"]
+[ext_resource type="Texture2D" uid="uid://csgsjyj44uvwl" path="res://Imatges/Base pack/Player/p3_walk/p3_walk05.png" id="6_g64su"]
+[ext_resource type="Texture2D" uid="uid://3geirutk1kyo" path="res://Imatges/Base pack/Player/p3_walk/p3_walk06.png" id="7_d28vx"]
+[ext_resource type="Texture2D" uid="uid://uj7k7sxtyobm" path="res://Imatges/Base pack/Player/p3_walk/p3_walk07.png" id="8_t5j7i"]
+[ext_resource type="Texture2D" uid="uid://ds5dcbl7dqejw" path="res://Imatges/Base pack/Player/p3_walk/p3_walk08.png" id="9_tn8fj"]
+[ext_resource type="Texture2D" uid="uid://bh7cxmmt8rja8" path="res://Imatges/Base pack/Player/p3_walk/p3_walk09.png" id="10_vilxn"]
+[ext_resource type="Texture2D" uid="uid://bhfo0nrmkcq3" path="res://Imatges/Base pack/Player/p3_walk/p3_walk10.png" id="11_dhfbq"]
+[ext_resource type="Texture2D" uid="uid://btnnbekifio7r" path="res://Imatges/Base pack/Player/p3_walk/p3_walk11.png" id="12_bwkb6"]
+[ext_resource type="Texture2D" uid="uid://dovov7mc4go31" path="res://Imatges/Base pack/Player/p3_stand.png" id="13_ytnfv"]
+[ext_resource type="Texture2D" uid="uid://b4lcof3jcxth8" path="res://Imatges/Base pack/Player/p3_jump.png" id="14_2mj5i"]
 [ext_resource type="Texture2D" uid="uid://doaxcqhaeng0r" path="res://Imatges/Base pack/Items/mushroomRed.png" id="15_5nlwg"]
 [ext_resource type="Texture2D" uid="uid://cr120aikauald" path="res://Imatges/Base pack/Items/mushroomBrown.png" id="16_16mg1"]
 [ext_resource type="Texture2D" uid="uid://eigiop25yjpi" path="res://Imatges/Mushroom expansion/PNG/tinyShroom_tan.png" id="17_rqm4b"]
 [ext_resource type="PackedScene" uid="uid://dbryrlmjr2nia" path="res://Escenes/ben_jugat!.tscn" id="18_ytnfv"]
+[ext_resource type="FontFile" uid="uid://djtpi5ay0wpj" path="res://Fonts/The Rufly.ttf" id="19_2mj5i"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ccn5l"]
 size = Vector2(50, 75)
@@ -64,7 +65,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("13_rqm4b")
+"texture": ExtResource("13_ytnfv")
 }],
 "loop": true,
 "name": &"Quiet",
@@ -72,7 +73,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("14_ytnfv")
+"texture": ExtResource("14_2mj5i")
 }],
 "loop": true,
 "name": &"Saltar",
@@ -90,7 +91,7 @@ shape = SubResource("RectangleShape2D_ccn5l")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
 scale = Vector2(0.818182, 0.818182)
 sprite_frames = SubResource("SpriteFrames_tn8fj")
-animation = &"Saltar"
+animation = &"Caminar"
 
 [node name="bolet_marcador" type="Sprite2D" parent="CharacterBody2D"]
 visible = false
@@ -117,3 +118,13 @@ limit_bottom = 50
 
 [node name="Ben Jugat!" parent="CharacterBody2D" instance=ExtResource("18_ytnfv")]
 visible = false
+
+[node name="Label" type="Label" parent="CharacterBody2D"]
+offset_left = -248.0
+offset_top = 82.0
+offset_right = 248.0
+offset_bottom = 144.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("19_2mj5i")
+theme_override_font_sizes/font_size = 50
+text = "Cull tots els bolets"

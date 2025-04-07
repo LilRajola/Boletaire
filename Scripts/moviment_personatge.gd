@@ -35,13 +35,15 @@ func _process(delta: float) -> void:
 	if Input.is_action_just_pressed("salta") and a_terra:
 		velocity.y += salt
 		$AnimatedSprite2D.play("Saltar")
+		$Label.visible = false
 		
 	velocity += gravetat * delta
 	move_and_slide()
 	
 	if $bolet_blanc_marcador.visible == true and $Bolet_marro_marcador.visible == true and$bolet_marcador.visible == true:
 		$"Ben Jugat!".visible = true
-		pass
+		
+		
 		
 func agafa_bolet():
 	$bolet_marcador.visible = true
