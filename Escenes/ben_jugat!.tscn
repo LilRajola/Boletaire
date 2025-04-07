@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbryrlmjr2nia"]
+
+[ext_resource type="FontFile" uid="uid://bbone74yxmpik" path="res://Fonts/Space Comics.ttf" id="1_pdmb2"]
+[ext_resource type="FontFile" uid="uid://djtpi5ay0wpj" path="res://Fonts/The Rufly.ttf" id="2_dubnv"]
+
+[node name="Ben Jugat!" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = -421.0
+offset_top = -180.0
+offset_right = 660.0
+offset_bottom = -88.0
+theme_override_colors/font_color = Color(1, 0.647059, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_pdmb2")
+theme_override_font_sizes/font_size = 75
+text = "BEN JUGAT!"
+
+[node name="Label2" type="Label" parent="."]
+offset_left = -349.0
+offset_top = -104.0
+offset_right = 677.0
+offset_bottom = -57.0
+theme_override_fonts/font = ExtResource("2_dubnv")
+theme_override_font_sizes/font_size = 30
+text = "Ja ho tens tot per fer una bona truita."

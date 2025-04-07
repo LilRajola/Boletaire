@@ -40,7 +40,7 @@ func _process(delta: float) -> void:
 	move_and_slide()
 	
 	if $bolet_blanc_marcador.visible == true and $Bolet_marro_marcador.visible == true and$bolet_marcador.visible == true:
-		print('Ja els tens tots, VICTORIA!')
+		$"Ben Jugat!".visible = true
 		pass
 		
 func agafa_bolet():

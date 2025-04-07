@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://drrgovxcyhgt2"]
+[gd_scene load_steps=21 format=3 uid="uid://drrgovxcyhgt2"]
 
 [ext_resource type="Script" uid="uid://cvyuutjgf0q88" path="res://Scripts/moviment_personatge.gd" id="1_if3wi"]
 [ext_resource type="Texture2D" uid="uid://db8sk53wilayw" path="res://Imatges/Base pack/Player/p2_walk/PNG/p2_walk01.png" id="2_ytnfv"]
@@ -17,6 +17,7 @@
 [ext_resource type="Texture2D" uid="uid://doaxcqhaeng0r" path="res://Imatges/Base pack/Items/mushroomRed.png" id="15_5nlwg"]
 [ext_resource type="Texture2D" uid="uid://cr120aikauald" path="res://Imatges/Base pack/Items/mushroomBrown.png" id="16_16mg1"]
 [ext_resource type="Texture2D" uid="uid://eigiop25yjpi" path="res://Imatges/Mushroom expansion/PNG/tinyShroom_tan.png" id="17_rqm4b"]
+[ext_resource type="PackedScene" uid="uid://dbryrlmjr2nia" path="res://Escenes/ben_jugat!.tscn" id="18_ytnfv"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ccn5l"]
 size = Vector2(50, 75)
@@ -91,11 +92,6 @@ scale = Vector2(0.818182, 0.818182)
 sprite_frames = SubResource("SpriteFrames_tn8fj")
 animation = &"Saltar"
 
-[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
-limit_left = -200
-limit_top = -586
-limit_bottom = 50
-
 [node name="bolet_marcador" type="Sprite2D" parent="CharacterBody2D"]
 visible = false
 position = Vector2(-1, -81)
@@ -114,3 +110,10 @@ position = Vector2(-39, -62)
 rotation = -0.520374
 scale = Vector2(0.71843, 0.723452)
 texture = ExtResource("17_rqm4b")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+limit_top = -586
+limit_bottom = 50
+
+[node name="Ben Jugat!" parent="CharacterBody2D" instance=ExtResource("18_ytnfv")]
+visible = false

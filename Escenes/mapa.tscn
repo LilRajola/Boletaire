@@ -55,7 +55,7 @@ position = Vector2(206, -308)
 position = Vector2(547, -421)
 
 [node name="Terra34" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
-position = Vector2(497, -471)
+position = Vector2(256, -358)
 
 [node name="Terra35" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
 position = Vector2(447, -421)
@@ -105,23 +105,20 @@ position = Vector2(100, -436)
 [node name="Terra39" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
 position = Vector2(50, -436)
 
-[node name="Terra40" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
-position = Vector2(0, -436)
-
 [node name="Terra19" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
 position = Vector2(525, -75)
 
 [node name="Terra48" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
-position = Vector2(1276, -452)
+position = Vector2(1320, -151)
 
 [node name="Terra51" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
 position = Vector2(1017, -315)
 
 [node name="Terra49" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
-position = Vector2(1226, -502)
+position = Vector2(1270, -201)
 
 [node name="Terra50" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
-position = Vector2(1176, -502)
+position = Vector2(1220, -201)
 
 [node name="Terra20" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
 position = Vector2(1420, -151)
@@ -145,7 +142,10 @@ position = Vector2(967, -364)
 position = Vector2(917, -414)
 
 [node name="Terra47" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
-position = Vector2(1022, -524)
+position = Vector2(1171, -385)
+
+[node name="Terra52" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
+position = Vector2(1334, -343)
 
 [node name="Terra43" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
 position = Vector2(867, -414)
@@ -177,7 +177,7 @@ position = Vector2(917, -364)
 position = Vector2(497, -421)
 
 [node name="Terra45" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
-position = Vector2(1226, -452)
+position = Vector2(1270, -151)
 
 [node name="Terra44" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
 position = Vector2(1575, -368)
@@ -329,6 +329,48 @@ position = Vector2(2075, 25)
 [node name="Terra63" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
 position = Vector2(2125, 25)
 
+[node name="Terra64" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-875, 25)
+
+[node name="Terra65" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-775, 25)
+
+[node name="Terra66" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-825, 25)
+
+[node name="Terra67" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-725, 25)
+
+[node name="Terra68" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-625, 25)
+
+[node name="Terra69" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-675, 25)
+
+[node name="Terra70" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-575, 25)
+
+[node name="Terra71" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-475, 25)
+
+[node name="Terra72" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-525, 25)
+
+[node name="Terra73" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-425, 25)
+
+[node name="Terra74" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-325, 25)
+
+[node name="Terra75" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-375, 25)
+
+[node name="Terra76" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-275, 25)
+
+[node name="Terra77" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-225, 25)
+
 [node name="Terra4" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
 position = Vector2(625, -25)
 
@@ -347,13 +389,220 @@ position = Vector2(725, -25)
 [node name="Terra6" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
 position = Vector2(675, -25)
 
+[node name="Terra86" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(25, 75)
+
+[node name="Terra87" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(125, 75)
+
+[node name="Terra88" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(75, 75)
+
+[node name="Terra89" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(175, 75)
+
+[node name="Terra90" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-175, 75)
+
+[node name="Terra91" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-75, 75)
+
+[node name="Terra92" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-125, 75)
+
+[node name="Terra93" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-25, 75)
+
+[node name="Terra94" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(275, 75)
+
+[node name="Terra95" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(225, 75)
+
+[node name="Terra96" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(325, 75)
+
+[node name="Terra97" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(425, 75)
+
+[node name="Terra98" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(375, 75)
+
+[node name="Terra99" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(475, 75)
+
+[node name="Terra100" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(575, 75)
+
+[node name="Terra101" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(525, 75)
+
+[node name="Terra102" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(625, 75)
+
+[node name="Terra103" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(725, 75)
+
+[node name="Terra104" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(675, 75)
+
+[node name="Terra105" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(775, 75)
+
+[node name="Terra106" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(875, 75)
+
+[node name="Terra107" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(825, 75)
+
+[node name="Terra108" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(925, 75)
+
+[node name="Terra109" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1025, 75)
+
+[node name="Terra110" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(975, 75)
+
+[node name="Terra111" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1075, 75)
+
+[node name="Terra112" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1175, 75)
+
+[node name="Terra113" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1125, 75)
+
+[node name="Terra114" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1225, 75)
+
+[node name="Terra115" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1275, 75)
+
+[node name="Terra116" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1325, 75)
+
+[node name="Terra117" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1425, 75)
+
+[node name="Terra118" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1375, 75)
+
+[node name="Terra119" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1475, 75)
+
+[node name="Terra120" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1575, 75)
+
+[node name="Terra121" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1525, 75)
+
+[node name="Terra122" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1625, 75)
+
+[node name="Terra123" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1725, 75)
+
+[node name="Terra124" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1675, 75)
+
+[node name="Terra125" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1775, 75)
+
+[node name="Terra126" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1875, 75)
+
+[node name="Terra127" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1825, 75)
+
+[node name="Terra128" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1925, 75)
+
+[node name="Terra129" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(2025, 75)
+
+[node name="Terra130" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(1975, 75)
+
+[node name="Terra131" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(2075, 75)
+
+[node name="Terra132" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(2125, 75)
+
+[node name="Terra78" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(2226, 25)
+
+[node name="Terra79" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(2176, 25)
+
+[node name="Terra80" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(2276, 25)
+
+[node name="Terra81" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(2326, 25)
+
+[node name="Terra147" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(2226, 75)
+
+[node name="Terra148" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(2176, 75)
+
+[node name="Terra149" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(2276, 75)
+
+[node name="Terra150" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(2326, 75)
+
+[node name="Terra133" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-875, 75)
+
+[node name="Terra134" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-775, 75)
+
+[node name="Terra135" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-825, 75)
+
+[node name="Terra136" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-725, 75)
+
+[node name="Terra137" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-625, 75)
+
+[node name="Terra138" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-675, 75)
+
+[node name="Terra139" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-575, 75)
+
+[node name="Terra140" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-475, 75)
+
+[node name="Terra141" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-525, 75)
+
+[node name="Terra142" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-425, 75)
+
+[node name="Terra143" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-325, 75)
+
+[node name="Terra144" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-375, 75)
+
+[node name="Terra145" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-275, 75)
+
+[node name="Terra146" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
+position = Vector2(-225, 75)
+
 [node name="EL_qui_cull" parent="." instance=ExtResource("3_ffcuw")]
 position = Vector2(25, -87)
 
 [node name="El_que_s\'agafa" type="Node2D" parent="."]
 
 [node name="Bolet" parent="El_que_s\'agafa" instance=ExtResource("5_gc7n0")]
-position = Vector2(1228, -553)
+position = Vector2(1626, -469)
 
 [node name="Bolet_marro" parent="El_que_s\'agafa" instance=ExtResource("6_mydjf")]
 position = Vector2(707, -370)
@@ -397,19 +646,109 @@ position = Vector2(-125, -525)
 position = Vector2(-125, -575)
 
 [node name="Terra_invisible28" parent="Límits" instance=ExtResource("7_ew21c")]
-position = Vector2(-125, -625)
+position = Vector2(-75, -611)
 
 [node name="Terra_invisible29" parent="Límits" instance=ExtResource("7_ew21c")]
-position = Vector2(-125, -675)
+position = Vector2(-25, -611)
 
 [node name="Terra_invisible30" parent="Límits" instance=ExtResource("7_ew21c")]
-position = Vector2(-125, -725)
+position = Vector2(25, -611)
 
 [node name="Terra_invisible31" parent="Límits" instance=ExtResource("7_ew21c")]
-position = Vector2(-125, -775)
+position = Vector2(75, -611)
 
 [node name="Terra_invisible32" parent="Límits" instance=ExtResource("7_ew21c")]
-position = Vector2(-125, -825)
+position = Vector2(125, -611)
+
+[node name="Terra_invisible33" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(175, -611)
+
+[node name="Terra_invisible34" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(225, -611)
+
+[node name="Terra_invisible35" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(275, -611)
+
+[node name="Terra_invisible36" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(325, -611)
+
+[node name="Terra_invisible37" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(375, -611)
+
+[node name="Terra_invisible38" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(425, -611)
+
+[node name="Terra_invisible39" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(475, -611)
+
+[node name="Terra_invisible40" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(525, -611)
+
+[node name="Terra_invisible41" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(575, -611)
+
+[node name="Terra_invisible42" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(625, -611)
+
+[node name="Terra_invisible48" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(925, -611)
+
+[node name="Terra_invisible49" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(975, -611)
+
+[node name="Terra_invisible50" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(1025, -611)
+
+[node name="Terra_invisible51" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(1075, -611)
+
+[node name="Terra_invisible52" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(1125, -611)
+
+[node name="Terra_invisible53" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(1175, -611)
+
+[node name="Terra_invisible54" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(1225, -611)
+
+[node name="Terra_invisible55" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(1275, -611)
+
+[node name="Terra_invisible56" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(1325, -611)
+
+[node name="Terra_invisible57" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(1375, -611)
+
+[node name="Terra_invisible58" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(1425, -611)
+
+[node name="Terra_invisible59" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(1475, -611)
+
+[node name="Terra_invisible60" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(1525, -611)
+
+[node name="Terra_invisible61" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(1575, -611)
+
+[node name="Terra_invisible62" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(1625, -611)
+
+[node name="Terra_invisible43" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(675, -611)
+
+[node name="Terra_invisible44" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(725, -611)
+
+[node name="Terra_invisible45" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(775, -611)
+
+[node name="Terra_invisible46" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(825, -611)
+
+[node name="Terra_invisible47" parent="Límits" instance=ExtResource("7_ew21c")]
+position = Vector2(875, -611)
 
 [node name="Terra_invisible9" parent="Límits" instance=ExtResource("7_ew21c")]
 position = Vector2(1724, -25)
@@ -448,48 +787,58 @@ position = Vector2(1724, -525)
 position = Vector2(1724, -575)
 
 [node name="Terra_invisible21" parent="Límits" instance=ExtResource("7_ew21c")]
-position = Vector2(1724, -625)
-
-[node name="Terra_invisible22" parent="Límits" instance=ExtResource("7_ew21c")]
-position = Vector2(1724, -675)
-
-[node name="Terra_invisible23" parent="Límits" instance=ExtResource("7_ew21c")]
-position = Vector2(1724, -725)
+position = Vector2(1675, -611)
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+texture_filter = 1
 motion_scale = Vector2(0.1, 1)
 motion_mirroring = Vector2(994, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
-position = Vector2(297.24, -293.506)
+texture_repeat = 2
+position = Vector2(312.485, -293.506)
 scale = Vector2(3.65618, 3.65618)
 texture = ExtResource("8_sbtyl")
+region_enabled = true
+region_rect = Rect2(-343, 0, 1133, 160)
 
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+texture_filter = 1
 motion_scale = Vector2(0.3, 1)
 motion_mirroring = Vector2(994, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
-position = Vector2(297.24, -293.506)
+texture_repeat = 2
+position = Vector2(312.725, -292.012)
 scale = Vector2(3.65618, 3.65618)
 texture = ExtResource("9_dv2mw")
+region_enabled = true
+region_rect = Rect2(-344, 0, 1165, 160)
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+texture_filter = 1
 motion_scale = Vector2(0.5, 1)
 motion_mirroring = Vector2(994, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2(297.24, -293.506)
+texture_repeat = 2
+position = Vector2(314.485, -290.506)
 scale = Vector2(3.65618, 3.65618)
 texture = ExtResource("10_wiugq")
+region_enabled = true
+region_rect = Rect2(0, 0, 628, 161.5)
 
 [node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
+texture_filter = 1
 motion_scale = Vector2(0.9, 1)
 motion_mirroring = Vector2(994, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
-position = Vector2(297.353, -293.381)
+texture_repeat = 2
+position = Vector2(312.838, -291.887)
 scale = Vector2(3.65618, 3.65618)
 texture = ExtResource("11_3h6sj")
+region_enabled = true
+region_rect = Rect2(-309, 0, 941, 160)
