@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://doxolg6yheja4"]
+
+[ext_resource type="Texture2D" uid="uid://hv1f2en8niql" path="res://Imatges/Base pack/Tiles/fence.png" id="1_kkjqc"]
+
+[node name="Decoració" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1.49012e-08, 0)
+scale = Vector2(0.692857, 0.692857)
+texture = ExtResource("1_kkjqc")

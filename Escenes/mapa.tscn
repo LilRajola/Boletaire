@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://dcvo3ys6nylju"]
+[gd_scene load_steps=13 format=3 uid="uid://dcvo3ys6nylju"]
 
 [ext_resource type="PackedScene" uid="uid://cjci5ca8ie8jy" path="res://Escenes/plataformas.tscn" id="2_biieb"]
 [ext_resource type="PackedScene" uid="uid://c3nhpwndr2mhl" path="res://Escenes/terra.tscn" id="3_2011l"]
@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://dx5fiypsllkgs" path="res://Imatges/Fondo/parallax_forest_pack/layers/parallax-forest-lights.png" id="9_dv2mw"]
 [ext_resource type="Texture2D" uid="uid://d1efq4if1d2h3" path="res://Imatges/Fondo/parallax_forest_pack/layers/parallax-forest-middle-trees.png" id="10_wiugq"]
 [ext_resource type="Texture2D" uid="uid://wd015ef2ktr6" path="res://Imatges/Fondo/parallax_forest_pack/layers/parallax-forest-front-trees.png" id="11_3h6sj"]
+[ext_resource type="PackedScene" uid="uid://doxolg6yheja4" path="res://Escenes/Decoració.tscn" id="12_dv2mw"]
 
 [node name="Mapa_bolets" type="Node2D"]
 
@@ -62,7 +63,8 @@ motion_mirroring = Vector2(994, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
 texture_repeat = 2
-position = Vector2(312.838, -291.887)
+position = Vector2(315, -294)
+rotation = -0.00339825
 scale = Vector2(3.65618, 3.65618)
 texture = ExtResource("11_3h6sj")
 region_enabled = true
@@ -145,7 +147,7 @@ scale = Vector2(1, 1.00571)
 [node name="Superiors (grass)" type="Node2D" parent="Tots_terra"]
 
 [node name="Terra15" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
-position = Vector2(1125, -25)
+position = Vector2(1025, -24.0057)
 
 [node name="Terra28" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
 position = Vector2(725, -75)
@@ -154,7 +156,7 @@ position = Vector2(725, -75)
 position = Vector2(675, -75)
 
 [node name="Terra16" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
-position = Vector2(1075, -25)
+position = Vector2(975, -73.5799)
 
 [node name="Terra" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
 position = Vector2(25, -25)
@@ -241,13 +243,13 @@ position = Vector2(1017, -315)
 position = Vector2(1270, -201)
 
 [node name="Terra50" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
-position = Vector2(1220, -201)
+position = Vector2(1220, -151.137)
 
 [node name="Terra20" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
 position = Vector2(1420, -151)
 
 [node name="Terra23" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
-position = Vector2(1025, -25)
+position = Vector2(925, -24.0057)
 
 [node name="Terra24" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
 position = Vector2(756, -269)
@@ -271,7 +273,7 @@ position = Vector2(1171, -385)
 position = Vector2(1525, -23.8639)
 
 [node name="Terra55" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
-position = Vector2(1379, -357.958)
+position = Vector2(1380, -316.195)
 
 [node name="Terra43" parent="Tots_terra/Superiors (grass)" instance=ExtResource("2_biieb")]
 position = Vector2(867, -414)
@@ -1080,7 +1082,7 @@ position = Vector2(2276, 174.291)
 position = Vector2(2326, 174.291)
 
 [node name="Terra279" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
-position = Vector2(-874, 174.433)
+position = Vector2(975, -23.8637)
 
 [node name="Terra280" parent="Tots_terra/Inferiors" instance=ExtResource("3_2011l")]
 position = Vector2(-774, 174.433)
@@ -1134,3 +1136,14 @@ position = Vector2(1177, -26)
 
 [node name="EL_qui_cull" parent="." instance=ExtResource("3_ffcuw")]
 position = Vector2(25, -87)
+
+[node name="Decoracions" type="Node2D" parent="."]
+
+[node name="Decoració" parent="Decoracions" instance=ExtResource("12_dv2mw")]
+position = Vector2(1276, -24)
+
+[node name="Decoració2" parent="Decoracions" instance=ExtResource("12_dv2mw")]
+position = Vector2(676, -125)
+
+[node name="Decoració3" parent="Decoracions" instance=ExtResource("12_dv2mw")]
+position = Vector2(125, -74)
