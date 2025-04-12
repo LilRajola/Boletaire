@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://dcvo3ys6nylju"]
+[gd_scene load_steps=14 format=3 uid="uid://dcvo3ys6nylju"]
 
 [ext_resource type="PackedScene" uid="uid://cjci5ca8ie8jy" path="res://Escenes/plataformas.tscn" id="2_biieb"]
 [ext_resource type="PackedScene" uid="uid://c3nhpwndr2mhl" path="res://Escenes/terra.tscn" id="3_2011l"]
@@ -12,6 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://d1efq4if1d2h3" path="res://Imatges/Fondo/parallax_forest_pack/layers/parallax-forest-middle-trees.png" id="10_wiugq"]
 [ext_resource type="Texture2D" uid="uid://wd015ef2ktr6" path="res://Imatges/Fondo/parallax_forest_pack/layers/parallax-forest-front-trees.png" id="11_3h6sj"]
 [ext_resource type="PackedScene" uid="uid://doxolg6yheja4" path="res://Escenes/Decoració.tscn" id="12_dv2mw"]
+[ext_resource type="Texture2D" uid="uid://tmpr574xyghq" path="res://Imatges/Base pack/Tiles/signRight.png" id="13_wiugq"]
 
 [node name="Mapa_bolets" type="Node2D"]
 
@@ -1147,3 +1148,13 @@ position = Vector2(676, -125)
 
 [node name="Decoració3" parent="Decoracions" instance=ExtResource("12_dv2mw")]
 position = Vector2(125, -74)
+
+[node name="Sprite2D" type="Sprite2D" parent="Decoracions"]
+position = Vector2(80, -487)
+scale = Vector2(0.685714, 0.685714)
+texture = ExtResource("13_wiugq")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Decoracions"]
+position = Vector2(1379, -367)
+scale = Vector2(0.685714, 0.685714)
+texture = ExtResource("13_wiugq")
